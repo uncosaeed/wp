@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://demo.astemplates.com/html-templates/001022/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Harvest Hills</title>
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="https://demo.astemplates.com/html-templates/001022/favicon.png">
+    
+    <!-- Bootstrap css -->
+    <link href="./Harvest Hills_files/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./Harvest Hills_files/bootstrap-theme.css" rel="stylesheet">
+    <!-- Vegas - Fullscreen Backgrounds -->
+    <link href="./Harvest Hills_files/jquery.vegas.min.css" rel="stylesheet">
+    <!-- OWL carousel css -->
+    <link href="./Harvest Hills_files/owl.carousel.css" rel="stylesheet">
+    <link href="./Harvest Hills_files/owl.theme.css" rel="stylesheet">
+    <link href="./Harvest Hills_files/owl.transitions.css" rel="stylesheet">
+    <!-- Intro animations -->
+    <link href="./Harvest Hills_files/animate.css" rel="stylesheet">
+    <!-- Font awesome -->
+    <link href="./Harvest Hills_files/font-awesome.min.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="./Harvest Hills_files/lightbox.css" rel="stylesheet">
+    
+    <!-- styles for this template -->
+    <link href="./Harvest Hills_files/theme.styles.css" rel="stylesheet">
+    
+    <!-- place your extra custom styles in this file -->
+    <link href="./Harvest Hills_files/theme.custom.css" rel="stylesheet">
+    <link href="./Harvest Hills_files/mobile.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<!-- data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined, 
+	 and when background change is disabled for mobile -->
+<!-- data-overlay: "true" - semi-transparent black overlay on top of bg enabled, "false" - disabled -->
+<!-- data-overlay-opacity: set the opacity/transparency of the black overlay -->
+<body data-default-background-img="assets/images/backgrounds/bg-1.jpg" data-overlay="true" data-overlay-opacity="0.35"><img class="vegas-background" src="./Harvest Hills_files/bg-1.jpg" style="position: fixed; left: 0px; top: -54.5px; width: 1350px; height: 708px; bottom: auto; right: auto;"><div class="vegas-overlay" style="margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background-image: url(&quot;assets/images/bg.overlay.png&quot;); opacity: 0.35;"></div>
+
+    <!-- Outer Container ***************************************************************************************  --> 
+    <div id="outer-container"> 
+        
+        <!-- Left Sidebar **************************************************************************************  --> 
+        <section id="left-sidebar"> 
+            
+            <!--  Logo  --> 
+            <!--  change the img src to your logo  -->
+            <div class="logo"> 
+                <a href="https://demo.astemplates.com/html-templates/001022/#intro" class="link-scroll">
+                    <img src="./Harvest Hills_files/logo.png" alt="Harvest Hills">
+                </a> 
+            </div>
+            <!--  END: Logo  --> 
+            
+            <!-- Main Menu  -->
+    
+            <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+                 - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+                 - set href of each <a> to the id of the .section-w rapper to link to -->
+            <!-- Menu Icon for smaller viewports -->
+    
+            <div id="mobile-menu-icon" class="visible-xs" onclick="toggle_main_menu();">
+                <span class="glyphicon glyphicon-th"></span>
+            </div>
+            
+            <ul id="main-menu">
+                <li id="menu-item-text" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001022/#text">about</a></li>
+                <li id="menu-item-carousel" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001022/#carousel">products</a></li>
+                <li id="menu-item-grid" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001022/#grid">history</a></li>
+                <li id="menu-item-featured" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001022/#featured">featured</a></li>
+                <li id="menu-item-tabs" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001022/#tabs">news</a></li>
+                <li id="menu-item-contact" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001022/#contact">contact</a></li>
+                <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below --> 
+                <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+            </ul>
+            <!--END:  Main Menu  -->
+            
+        </section>
+        
+        <!-- END: Left Sidebar *********************************************************************************  -->
+        
+        <!-- Main Content **************************************************************************************  --> 
+        <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+               - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+        <section id="main-content" class="clearfix"> 
+            
+            <!-- SECTION: Intro Text ---------------------------------------------------------------------------------------- --> 
+            <!-- This section should contain heading and intro paragraph. It can also include links to other sections --> 
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+                 
+            <article id="intro" class="section-wrapper clearfix active" data-custom-background-img="assets/images/backgrounds/bg-1.jpg">
+                <div class="content-wrapper clearfix wow fadeInDown animated" data-wow-delay="0.3s" style="position: absolute; visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                    <div class="col-sm-10 col-md-9 pull-right"> 
+    
+                        <!-- Start: Section content to edit --> 
+                        
+                        <section class="feature-text">
+                            <h1 class="section-title">Powerful Onepage Bootstrap Template</h1>
+                            <p>Harvest Hills is a fully responsive HTML template, designed to be ideal for websites with a brief content.</p>
+                            
+                            <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                            <p><a href="https://demo.astemplates.com/html-templates/001022/#text" class="link-scroll btn btn-outline-inverse btn-lg">find out more</a></p>
+                        </section>
+                        
+                        <!-- End: Section content to edit --> 
+                        
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Intro Text ------------------------------------------------------------------------------------ -->         
+            
+            
+            <!-- SECTION: Content Text -------------------------------------------------------------------------------------- --> 
+            <!-- This section should contain generic content (text, image, etc) --> 
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="text" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-2.jpg">
+                <div class="content-wrapper clearfix" style="position: static;">
+                    <div class="col-sm-10 col-md-9 pull-right"> 
+                        
+                        <!-- Start: Section content to edit -->
+        
+                        <h2 class="section-title">About Us</h2>
+                        <div class="clearfix"></div>
+        
+                        <p class="feature-paragraph">
+                            <img data-img-src="assets/images/about/about-1.png" class="lazy pull-right rounded_border" alt="About Us">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar tempus tortor ut convallis. Duis hendrerit aliquam eros, eu commodo nulla porta. 
+                            <a href="https://demo.astemplates.com/html-templates/001022/#carousel">Curabitur eu lobortis dui</a>,  eu lobortis dui. In dictum lectus non metus pellentesque pellentesque. 
+                            Donec ac sem in magna rhoncus eleifend sit amet id massa. In hendrerit, purus sed ultrices elementum. 
+                        </p>
+                        
+                        <h4> Fusce faucibus dictum justo.</h4>
+                        <p>
+                            Ut ut sapien ut diam molestie tempus et at leo. Nullam sollicitudin non ipsum sit amet iaculis. Nullam at auctor velit. 
+                            Vestibulum pretium diam tincidunt, lobortis quam nec, posuere tellus. Pellentesque vitae sapien leo.
+                        </p>
+                    
+                        <!-- to make a popup/modal link add an onClick function call to the function: 
+                             - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                        <p><a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-1&#39;);" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                        
+                        <!-- content which will be shown in the popup/modal when clicking on the above link 
+                             - it is important to set a unique id -->
+                        <div class="content-to-populate-in-modal" id="modal-content-1">
+                            <h2>Lorem Ipsum</h2>
+                            <p>
+                                <img data-img-src="assets/images/about/about-3.png" class="lazy rounded_border hover_effect pull-right" alt="About Us">
+                                Cras sed urna dignissim, molestie diam sit amet, sollicitudin lorem. Sed consequat felis id leo imperdiet, sed interdum nulla dignissim. 
+                                Proin aliquet bibendum diam porttitor tempor. Quisque sed felis et turpis vulputate posuere. Etiam tincidunt dui massa, quis sodales 
+                                velit egestas in. Fusce eget odio odio. Curabitur congue sapien ante, ac ullamcorper elit lacinia consectetur.
+                            </p>
+                            
+                            <p>
+                                Aenean at ligula mauris. Quisque viverra nisi lorem, quis facilisis velit dictum nec. Cras id ante a nulla feugiat varius. 
+                                Cras interdum semper enim et hendrerit. Donec tortor magna, ultrices eu purus sit amet, dapibus convallis urna. 
+                                Proin tincidunt facilisis eleifend.
+                            </p>
+                            
+                            <h3>Nulla euismod maximus erat</h3>
+                            <p>
+                                <img data-img-src="assets/images/about/about-2.png" class="lazy rounded_border hover_effect pull-left" alt="About Us">
+                                Sed consectetur sit amet sapien tristique efficitur. Curabitur tellus sapien, varius in lorem quis, rutrum rutrum nunc. 
+                                Curabitur tortor quam, posuere sit amet elit ut, euismod pellentesque arcu. Fusce quis ultricies sapien. Donec tincidunt non est sit amet aliquet. 
+                            </p>
+                            <p>
+                                Nulla fringilla, mi ut consectetur lobortis, nulla lorem congue nunc, in venenatis nisl turpis a metus. In et accumsan dolor. 
+                                Duis ac mi tempus risus rhoncus interdum. In gravida nibh lobortis turpis ullamcorper, id elementum nisi maximus. Sed vel finibus dolor. 
+                                Proin ut tempor neque. Vivamus quis quam commodo, vehicula ante non, vulputate est.
+                            </p>
+                        </div>
+    
+                        <!-- End: Section content to edit --> 
+    
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Content Text ---------------------------------------------------------------------------------- --> 
+            
+    
+            <!-- SECTION: Carousel ------------------------------------------------------------------------------------------ --> 
+            <!-- This section should contain slides with an icon, text, and an optional button -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="carousel" class="section-wrapper clearfix modified-height" data-custom-background-img="assets/images/backgrounds/bg-3.jpg">
+                <div class="content-wrapper clearfix" style="position: static; height: 70%;">
+                
+                    <!-- Start: Section content to edit -->
+                    
+                    <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
+                    <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+                    
+                        <!-- Indicators - slide navigation -->
+                        <!-- each slide should have data-slide-to set to the index of the slide (starting from 0), and a short title link for the slide -->
+                        <ol class="carousel-indicators title-indicators">
+                            <li data-target="#features-carousel" data-slide-to="0" class="">Lorem Ipsum</li>
+                            <li data-target="#features-carousel" data-slide-to="1" class="">Morbi porttitor</li>
+                            <li data-target="#features-carousel" data-slide-to="2" class="">Urabitur in velit</li>
+                            <li data-target="#features-carousel" data-slide-to="3" class="active">Class aptent</li>
+                        </ol>
+                        
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                        
+                            <!-- Carousel Slide 1 ------------------------------------------------------------------------------ -->
+                            <div class="item" style="">
+                                <div class="carousel-text-content" style="height: 487.828px;">
+                                    <!-- start: slide content to edit -->
+                                    
+                                    <img src="./Harvest Hills_files/product-ico-1.png" class="icon" alt="Product 1">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-record"></span> -->
+                                        
+                                    <h2 class="title">Lorem Ipsum</h2>
+                                    <p>
+                                        Aenean pellentesque congue nibh, vel gravida lacus vulputate ut. 
+                                        Praesent sit amet urna porta ipsum volutpat condimentum vitae adipiscing est.
+                                        Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. 
+                                    </p>
+                                    
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p><a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-2&#39;);" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                                    
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="content-to-populate-in-modal" id="modal-content-2">
+                                        <h2>Lorem Ipsum</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-1.png" class="lazy rounded_border hover_effect pull-right" alt="Product 1">
+                                            Nam mi purus, elementum interdum turpis id, aliquam mattis mi. Aenean pellentesque congue nibh, vel gravida lacus vulputate ut. 
+                                            Praesent sit amet urna porta ipsum volutpat. 
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. 
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. 
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.
+                                        </p>
+                                    </div>
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 1 ------------------------------------------------------------------------- -->
+                    
+                            <!-- Carousel Slide 2 ------------------------------------------------------------------------------ -->
+                            <div class="item" style="">
+                                <div class="carousel-text-content" style="height: 487.828px;">
+                                    <!-- start: slide content to edit -->
+    
+                                    <img src="./Harvest Hills_files/product-ico-2.png" class="icon" alt="Product 2">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-stats"></span> -->
+                                    
+                                    <h2 class="title">Morbi porttitor</h2>
+                                    <p>
+                                        Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu 
+                                        ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sodales auctor ligula eget hendrerit fermentum fermentum.
+                                    </p>
+                                    
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p><a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-3&#39;);" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                                    
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="content-to-populate-in-modal" id="modal-content-3">
+                                        <h2>Morbi porttitor</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-2.png" class="lazy rounded_border hover_effect pull-right" alt="Product 2">
+                                            Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu 
+                                            ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. 
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. 
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.
+                                        </p>
+                                    </div>
+    
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 2 ------------------------------------------------------------------------- -->
+                    
+                            <!-- Carousel Slide 3 ------------------------------------------------------------------------------ -->
+                            <div class="item" style="">
+                                <div class="carousel-text-content" style="height: 533px;">
+                                    <!-- start: slide content to edit -->
+    
+                                    <img src="./Harvest Hills_files/product-ico-3.png" class="icon" alt="Product 3">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-lock"></span> -->
+                                    
+                                    <h2 class="title">Urabitur in velit</h2>
+                                    <p>
+                                        Class elementum interdum aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu.
+                                        Proin sodales auctor ligula eget hendrerit fermentum fermentum. Morbi porttitor pharetra libero et semper.
+                                    </p>
+                                    
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p><a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-4&#39;);" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                                    
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="content-to-populate-in-modal" id="modal-content-4">
+                                        <h2>Urabitur in velit</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-3.png" class="lazy rounded_border hover_effect pull-right" alt="Product 3">
+                                            Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu 
+                                            ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. 
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. 
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.
+                                        </p>
+                                    </div>
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 3 ------------------------------------------------------------------------- -->
+                    
+                            <!-- Carousel Slide 4 ------------------------------------------------------------------------------ -->
+                            <div class="item active" style="">
+                                <div class="carousel-text-content" style="height: 487.828px;">
+                                    <!-- start: slide content to edit -->
+    
+                                    <img src="./Harvest Hills_files/product-ico-4.png" class="icon" alt="Product 4">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-lock"></span> -->
+                                    
+                                    <h2 class="title">Class aptent</h2>
+                                    <p>
+                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu.
+                                        Proin sodales auctor ligula eget hendrerit fermentum fermentum. Morbi porttitor pharetra libero et semper elementum interdum.
+                                    </p>
+                                    
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p><a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-5&#39;);" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                                    
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="content-to-populate-in-modal" id="modal-content-5">
+                                        <h2>Class aptent</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-4.png" class="lazy rounded_border hover_effect pull-left" alt="Product 4">
+                                            Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu 
+                                            ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. 
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. 
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.
+                                        </p>
+                                    </div>
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 4 ------------------------------------------------------------------------- -->
+                    
+                        </div>
+                    
+                        <!-- Controls -->
+                        <!-- the left/right arrows to move from one slide to the other -->
+                        <a class="left carousel-control" href="https://demo.astemplates.com/html-templates/001022/#features-carousel" data-slide="prev"></a>
+                        <a class="right carousel-control" href="https://demo.astemplates.com/html-templates/001022/#features-carousel" data-slide="next"></a>
+                    
+                    </div>
+                    
+                    <!-- End: Section content to edit -->
+                
+                </div>
+            </article>
+            <!-- END SECTION: Carousel -------------------------------------------------------------------------------------- --> 
+            
+            
+    
+            <!-- SECTION: Grid - Our History -------------------------------------------------------------------------------- --> 
+            <!-- This section should contain a grid with separate items consisting of an icon and text -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-4.jpg">
+                <div class="content-wrapper clearfix" style="position: static;">
+                    <div class="col-sm-11 col-md-10 pull-right">
+                    
+                        <!-- Start: Section content to edit -->
+                        
+                        <h2 class="section-title">Our History</h2>
+                        <div class="clearfix"></div>
+                        
+                        <!-- grid -->
+                        <!-- change class "clearfix-for-2cols" to number of columns to correspond with "col-md-6" class for each grid item -->
+                        <!-- check add_clear_items_to_fix_grid_items_different_heights_issue() function -->
+                        <section class="grid row clearfix clearfix-for-2cols">
+                        
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <!-- <img data-img-src="assets/images/image.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <span class="icon fa fa-calendar-o"></span>
+                                    <div class="text-content">
+                                        <h5>2000 - Lorem ipsum dolor</h5>
+                                        <p>Cras at venenatis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ligula nunc, pharetra sed leo vitae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <!-- <img data-img-src="assets/images/image.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <span class="icon fa fa-calendar-check-o"></span>
+                                    <div class="text-content">
+                                        <h5>2005 - Quisque tincidunt</h5>
+                                        <p>Etiam eu euismod nulla. Donec scelerisque tortor ut mi mattis, vel tincidunt metus volutpat. In euismod pharetra luctus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <!-- <img data-img-src="assets/images/image.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <span class="icon fa fa-calendar-plus-o"></span>
+                                    <div class="text-content">
+                                        <h5>2010 - Nullam a ornare</h5>
+                                        <p> Phasellus convallis tellus eu euismod ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <!-- <img data-img-src="assets/images/image.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <span class="icon fa fa-calendar"></span>
+                                    <div class="text-content">
+                                        <h5>2015 - Proin sed lorem</h5>
+                                        <p>Quisque id tempor libero, id elementum ante. Quisque malesuada ante elit, euismod laoreet dolor ullamcorper aeleifend.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        <!-- End: Section content to edit -->
+                    
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Grid - Our History -------------------------------------------------------------------------------- --> 
+    
+    
+            <!-- SECTION: Featured Items ---------------------------------------------------------------------------------------- --> 
+            <!-- This section may contain a max of 3 items each consisting of an image and text. Each item may be linked -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="featured" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-5.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute;">
+                    <div class="col-sm-11 pull-right">
+                    
+                        <!-- Start: Section content to edit -->
+                        
+                        <h2 class="section-title">Featured</h2>
+                        <div class="clearfix"></div>
+                        
+                        <!-- Featured columns -->
+                        <section class="feature-columns row clearfix">
+                        
+                            <!-- Featured column 1 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                                - populate_and_open_modal(event, '[id of popup content container - see below]', 
+                                    '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-6&#39;);" class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/featured/featured.1.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Image Carousel</h5>
+                                        <p>Click here to open an image carousel feature, the content will be shown in popup window</p>
+                                    </div>
+                                </a>
+                                
+                                <!-- content which will be shown in the popup window when clicking on the above link 
+                                - it is important to set a unique id -->
+                                <div class="content-to-populate-in-modal" id="modal-content-6">
+                                    <h2>Lorem ipsum</h2>
+                                    <p class="spacer_bottom">
+                                        Nunc elementum scelerisque lobortis. Nunc ac nulla posuere, interdum massa at, condimentum orci. Nunc a leo suscipit, pretium arcu eu. 
+                                    </p>
+                                    
+                                    <!-- image slider inside popup -->
+                                    <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                                    <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing 
+                                         (initialised in /js/initialise-functions.js). 
+                                         - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in 
+                                         /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
+                                    <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
+                                    
+                                        <!-- slide -->
+                                        <div>
+                                            <!-- Caption is optional. To remove it, remove the <h6> below -->
+                                            <h6 class="caption">Caption for Image 1</h6>
+                                            <img class="lazyOwl" data-src="assets/images/featured/featured.2.jpg">
+                                        </div>
+                                        
+                                        <!-- slide -->
+                                        <div>
+                                            <h6 class="caption">Caption for Image 2</h6>
+                                            <img class="lazyOwl" data-src="assets/images/featured/featured.3.jpg">
+                                        </div>
+                                        
+                                        <!-- slide -->
+                                        <div>
+                                            <h6 class="caption">Caption for Image 3</h6>
+                                            <img class="lazyOwl" data-src="assets/images/featured/featured.4.jpg">
+                                        </div>
+                                    
+                                    </div>
+                                <!-- end: image slider inside popup --> 
+                                </div>
+                                
+                            </article>
+                            <!-- END: Featured column 1 -->
+                            
+                            <!-- Featured column 2 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                                - populate_and_open_modal(event, '[id of popup content container - see below]', 
+                                    '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-7&#39;);" class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/featured/featured.5.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Image with Text</h5>
+                                        <p>Click here to open an image and text, the content will be shown in popup window</p>
+                                    </div>
+                                </a>
+                                
+                                <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                - it is important to set a unique id -->
+                                <div class="content-to-populate-in-modal" id="modal-content-7">
+                                    <img data-img-src="assets/images/featured/featured.6.jpg" class="lazy full-width spacer_bottom" alt="Lorem Ipsum">
+                                    <h2>Mauris ultrices lectus</h2>
+                                    <p>Aliquam mattis tincidunt lectus, sed scelerisque nunc sodales sit amet. Nam mattis lectus sed commodo molestie. 
+                                    Fusce lobortis pharetra egestas. Nunc non ligula commodo, lobortis orci sit amet, molestie eros. 
+                                    Maecenas nec dolor consequat, volutpat nisi sagittis, pellentesque ipsum.</p>
+                                    <p>Curabitur eu metus gravida arcu volutpat auctor. Aliquam erat volutpat. Duis a faucibus nibh, vitae viverra dolor. </p>
+                                </div>
+                            
+                            </article>
+                            <!-- END: Featured column 2 -->
+                            
+                            <!-- Featured column 3 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                                - populate_and_open_modal(event, '[id of popup content container - see below]', 
+                                    '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="https://demo.astemplates.com/html-templates/001022/" onclick="populate_and_open_modal(event, &#39;modal-content-8&#39;, &#39;&#39;, &#39;full-size&#39;);" class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/featured/featured.7.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Alternate Gallery</h5>
+                                        <p>Click here to open popup window with alternative version of an image gallery</p>
+                                    </div>
+                                </a>
+                                
+                                <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                - it is important to set a unique id -->
+                                <div class="content-to-populate-in-modal" id="modal-content-8">
+                                    <h2>Fusce a elementum</h2>
+                                    <p class="spacer_bottom">Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. 
+                                    Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.
+                                    Adipiscing eros non elit imperdiet congue tiam at ligula sit amet arcu.</p>
+                                    
+                                    <!-- alt image slider inside popup -->
+                                    <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                                    <!-- every Owl Carousel with class .popup-alt-image-gallery are initialised with same parameters when popup is showing 
+                                         (initialised in /js/initialise-functions.js) -->
+                                    <div id="unique-id-for-alt-image-slider" class="owl-carousel popup-alt-image-gallery ">
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.8.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.8.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.9.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.9.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.10.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.11.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.11.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.12.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.12.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.13.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.13.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.14.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.14.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001022/assets/images/featured/featured.15.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.15.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </article>
+                            <!-- END: Featured column 3 -->
+                        
+                        </section>
+                        
+                        <!-- End: Section content to edit -->
+                    
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Featured Items ------------------------------------------------------------------------------------ --> 
+    
+    
+            <!-- SECTION: Tab Our News ---------------------------------------------------------------------------------------------- --> 
+            <!-- This section should contain generic content in tabs -->
+            <!-- More information about Bootstrap Tabs can be found on http://getbootstrap.com/javascript/#tabs -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="tabs" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-6.jpg">
+                <div class="content-wrapper mid-vertical-positioning clearfix" style="position: static;">
+                    <div class="col-sm-10 col-md-9 pull-right">
+                    
+                        <h2 class="section-title">Our News</h2>
+                        
+                        <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
+                            
+                            <!-- Nav tabs -->
+                            <!-- The "text-hidden-xs" attribute determines whether to show or hide tab text on mobile vieports ("true" - text is hidden) -->
+                            <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
+                                <!-- Each tab should be structure as follows. Link href should be unique and match the ID of the respective tab-pane below. 
+                                     It has to match also with the "aria-controls" attribute. -->
+                                <!-- <i> represents the tab icon, <span> represents the tab text. -->
+                                <!-- The tab with <li class="active"> is the tab which is enabled by default -->
+                                <li role="presentation" class="active">
+                                    <a href="https://demo.astemplates.com/html-templates/001022/#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-calendar"></i><span>Events</span>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://demo.astemplates.com/html-templates/001022/#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-coffee"></i><span>Coffee Time</span>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://demo.astemplates.com/html-templates/001022/#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-spoon"></i><span>Recipes</span>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://demo.astemplates.com/html-templates/001022/#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-gift"></i><span>Farm Gifts</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                            
+                                <!-- Each tab pane is contained in the .tab-pane container with the following structure. 
+                                     Its ID should be unique and match with the tab link above -->
+                                <!-- It make container all generic content (text, images, etc). To initialise functions after tab-pane is shown, 
+                                     you need to use Events which are described in the documentation. -->
+                                <!-- The tab which is enabled by default should include these classes: "in active" -->
+                                <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1" style="min-height: 519px;">
+                                    <img src="./Harvest Hills_files/news.1.jpg" class="pull-right hidden-xs rounded_border">
+                                    <h4>Phasellus ornare enim</h4>
+                                    <p>Aliquam mattis tincidunt lectus, sed scelerisque nunc sodales : <strong><a href="https://demo.astemplates.com/html-templates/001022/#featured">June 10-30</a></strong>. </p> 
+                                    <p>Nam mattis lectus sed commodo molestie. Fusce lobortis pharetra egestas. Nunc non ligula commodo, 
+                                    lobortis orci sit amet, molestie eros. </p>
+                                    
+                                    <p> Quisque dignissim, dui ac laoreet semper : <strong>July 15-30</strong>. </p> 
+                                    <p> Curabitur eu metus gravida arcu volutpat auctor. Aliquam erat volutpat. Duis a faucibus nibh, vitae viverra dolor. 
+                                    Duis scelerisque accumsan condimentum.</p>
+    
+                                    <p>Proin aliquam lorem non nulla sollicitudin tincidunt : <strong>August 01-20</strong>.<br>
+                                    Nunc non ligula commodo, lobortis orci sit amet, molestie eros. </p>
+                                </div>
+                                
+                                <div role="tabpanel" class="tab-pane fade" id="tabs-tab2" style="min-height: 519px;">
+                                    <img src="./Harvest Hills_files/news.2.jpg" class="pull-right hidden-xs rounded_border">
+                                    <h4> Praesent placerat urna</h4>
+                                    <p>Aliquam malesuada molestie magna, vel lacinia arcu semper non. Morbi in dictum ante, quis euismod odio. 
+                                    Maecenas vel ligula dapibus, blandit dolor eu, consectetur ligula. Quisque dignissim, dui ac laoreet semper, 
+                                    sapien massa posuere risus, sed blandit eros nunc sit amet orci. Proin aliquam lorem non nulla sollicitudin tincidunt. 
+                                    Aenean ultrices vehicula elit, at venenatis orci facilisis sed. </p>
+                                    <p> Curabitur euismod gravida purus id tempus. Morbi sollicitudin ex in felis volutpat, a molestie arcu mollis. 
+                                    Vivamus ut nisl id sem aliquet finibus. Sed blandit volutpat velit pretium auctor. Quisque in purus quam. 
+                                    Ut at dictum libero, tristique egestas libero. Nulla egestas cursus finibus. Cras sit amet dolor massa. 
+                                    Praesent eget metus sit amet tellus sagittis sollicitudin.</p>
+                                </div>
+                                
+                                <div role="tabpanel" class="tab-pane fade" id="tabs-tab3" style="min-height: 519px;">
+                                    <img src="./Harvest Hills_files/news.3.jpg" class="pull-right hidden-xs rounded_border">
+                                    <h4>Nullam molestie molestie</h4>
+                                    <p> Curabitur euismod gravida purus id tempus. Morbi sollicitudin ex in felis volutpat, a molestie arcu mollis. 
+                                    Vivamus ut nisl id sem aliquet finibus. Sed blandit volutpat velit pretium auctor. Quisque in purus quam. 
+                                    Ut at dictum libero, tristique egestas libero. Nulla egestas cursus finibus. Cras sit amet dolor massa. 
+                                    Praesent eget metus sit amet tellus sagittis sollicitudin.</p>
+                                    <p>Aliquam malesuada molestie magna, vel lacinia arcu semper non. Morbi in dictum ante, quis euismod odio. 
+                                    Maecenas vel ligula dapibus, blandit dolor eu, consectetur ligula. Quisque dignissim, dui ac laoreet semper, 
+                                    sapien massa posuere risus, sed blandit eros nunc sit amet orci. Proin aliquam lorem non nulla sollicitudin tincidunt. 
+                                    Aenean ultrices vehicula elit, at venenatis orci facilisis sed. </p>
+                                </div>
+                                
+                                <div role="tabpanel" class="tab-pane fade" id="tabs-tab4" style="min-height: 519px;">
+                                    <img src="./Harvest Hills_files/news.4.jpg" class="pull-right hidden-xs rounded_border">
+                                    <h4> Aenean at enim eget</h4>
+                                    <p>Praesent id rhoncus justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante arcu, rhoncus tempor 
+                                    vestibulum vel, imperdiet a enim. Duis dignissim lacus a ante dignissim rhoncus. Integer luctus felis sed augue 
+                                    sagittis maximus. Vestibulum posuere ac dolor id tristique. Phasellus imperdiet erat lacinia velit rutrum vestibulum. </p>
+                                    <p> Vivamus ut nisl id sem aliquet finibus. Sed blandit volutpat velit pretium auctor. Quisque in purus quam. 
+                                    Ut at dictum libero, tristique egestas libero.Mauris commodo ante magna, sed sollicitudin nunc ornare ac.
+                                    Nunc id elit vel orci aliquet euismod tristique vitae orci. 
+                                    Pellentesque quam arcu, rutrum blandit orci non, accumsan cursus lectus. 
+                                    Phasellus eros leo, luctus eget lacus a, ullamcorper luctus ante. </p>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Tab News ------------------------------------------------------------------------------------------ --> 
+    
+    
+            <!-- SECTION: Contact Us -------------------------------------------------------------------------------------------- --> 
+            <!-- This section should contain contact details and a contact form -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-7.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute;">
+                    <div class="col-sm-12 pull-right">
+    
+                        <!-- Start: Section content to edit -->
+                        
+                        <h2 class="section-title">Contact Us</h2>
+                        
+                        <!-- Contact Details -->
+                        <div class="contact-details col-sm-5 col-md-3">
+                            <p>
+                                17600 Yonge Biggest St,<br>
+                                Toronto,<br>
+                                Ontario, L3Y 4Z1
+                            </p>
+                            <p>Tel: 1 234 567 8910</p>
+                            <p><a href="mailto:info@yoursitename.com">info@yoursite.com</a></p>
+                        </div>
+                        <!-- END: Contact Details -->
+                        
+                        <!-- Contact Form -->
+                        <div class="col-sm-7 col-md-9">
+                            <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
+                            <form class="form-style validate-form clearfix" action="https://demo.astemplates.com/html-templates/001022/assets/php/mail.php" method="POST" role="form">
+                            
+                                <!-- Left Column -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="text-field form-control validate-field required" data-validation-type="string" id="form-name" placeholder="Full Name" name="name">
+                                    </div>  
+                                    <div class="form-group">
+                                        <input type="email" class="text-field form-control validate-field required" data-validation-type="email" id="form-email" placeholder="Email Address" name="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="text-field form-control validate-field phone" data-validation-type="phone" id="form-contact-number" placeholder="Contact Number" name="contact_number">
+                                    </div>  
+                                    <div class="form-group text-right">
+                                        <img id="form-captcha-img" src="./Harvest Hills_files/captcha_img.php">
+                                        <input type="text" class="text-field form-control validate-field required" data-validation-type="captcha" id="form-captcha" placeholder="Enter text" name="captcha">
+                                    <span id="form-captcha-refresh" class="fa fa-refresh" title="Reload"></span>
+                                    </div>                  
+                                </div>
+                                <!-- END: Left Column -->
+                                
+                                <!-- Right Column -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea placeholder="Message..." class="form-control validate-field required" name="message"></textarea>
+                                    </div> 
+                                    <div class="form-group">
+                                        <img src="./Harvest Hills_files/loader.form.gif" class="form-loader">
+                                        <button type="submit" class="btn btn-sm btn-outline-inverse">Submit</button>
+                                    </div> 
+                                    <div class="form-group form-general-error-container"></div>           
+                                </div>
+                                <!-- END: Right Column -->
+                            
+                            </form>
+                        </div>
+                        <!-- END: Contact Form -->
+                        
+                        <!-- End: Section content to edit -->
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Contact Us ---------------------------------------------------------------------------------------- --> 
+            
+        </section>
+        <!-- END: Main Content **************************************************************************************  -->  
+    
+        <!-- Footer *************************************************************************************************  --> 
+        <section id="footer">
+        
+            <!-- Go to Top -->
+            <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+            
+            <!-- Social Icons -->
+            <!-- Each social icon item consists of the following:
+            - Link to the social page in href of <a>
+            - social icon in the <img> - a list of social icons options are found in the directory assets/images/social/ -->
+            <ul class="social-icons">
+                <li><a href="https://demo.astemplates.com/html-templates/001022/#" target="_blank" title="Facebook"><img src="./Harvest Hills_files/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://demo.astemplates.com/html-templates/001022/#" target="_blank" title="Twitter"><img src="./Harvest Hills_files/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://demo.astemplates.com/html-templates/001022/#" target="_blank" title="Google+"><img src="./Harvest Hills_files/googleplus.png" alt="Google+"></a></li>
+            </ul>
+            
+            <!-- copyright text -->
+            <div class="footer-text-line">© 2015 HARVEST HILLS</div>
+        
+        </section>
+        <!-- END: Footer *************************************************************************************************  -->  
+    
+    </div>
+    <!-- Outer Container *************************************************************************************************  --> 
+
+    <!-- Modal Window ----------------------------------------------------------------------------------------------------- --> 
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <div class="modal-body clearfix"></div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="mod-custom mod-custom__mobile_version">
+        <p>
+            <a href="http://www.astemplates.com/itempreview-tablet-landscape/408">
+	            See <br>
+            	Mobile <br>
+            	Version
+            </a>
+        </p>
+    </div>
+
+    <!-- Jquery and Bootstrap JS -->
+    <script type="text/javascript" async="" src="./Harvest Hills_files/atrk.js.download"></script><script async="" src="./Harvest Hills_files/analytics.js.download"></script><script src="./Harvest Hills_files/jquery-1.11.2.min.js.download"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="./Harvest Hills_files/bootstrap.min.js.download"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="./Harvest Hills_files/jquery.easing.1.3.js.download"></script>
+
+    <!-- background image strech script -->
+    <script src="./Harvest Hills_files/jquery.vegas.min.js.download"></script>
+
+    <!-- detect mobile browsers -->
+    <script src="./Harvest Hills_files/detectmobilebrowser.js.download"></script>
+
+    <!-- detect scrolling -->
+    <script src="./Harvest Hills_files/jquery.scrollstop.min.js.download"></script>
+
+    <!-- owl carousel js -->
+    <script src="./Harvest Hills_files/owl.carousel.min.js.download"></script>
+
+    <!-- lightbox js -->
+    <script src="./Harvest Hills_files/lightbox.min.js.download"></script>
+
+    <!-- intro animations -->
+    <script src="./Harvest Hills_files/wow.min.js.download"></script>
+
+    <!-- responsive videos -->
+    <script src="./Harvest Hills_files/jquery.fitvids.js.download"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="./Harvest Hills_files/functions.js.download"></script>
+    <script src="./Harvest Hills_files/initialise-functions.js.download"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->  
+
+        
+    <script>
+    
+	var isInIFrame = (window.location != window.parent.location);
+
+	if(isInIFrame == false)
+	{
+		<!-- Google Analytics -->
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-17774394-1', 'auto');
+        ga('send', 'pageview');
+		
+    	<!-- Alexa Certify Javascript -->
+        _atrk_opts = { atrk_acct:"tD2of1a0CM002x", domain:"astemplates.com",dynamic: true};
+        (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+	}
+	else
+	{
+		jQuery(document).ready(function()
+		{
+			jQuery(".mod-custom__mobile_version").hide();
+		});
+	}
+    </script>      
+
+  
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="https://demo.astemplates.com/html-templates/001022/"><div class="lb-nav"><a class="lb-prev" href="https://demo.astemplates.com/html-templates/001022/"></a><a class="lb-next" href="https://demo.astemplates.com/html-templates/001022/"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
